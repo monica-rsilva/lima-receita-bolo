@@ -1,0 +1,29 @@
+/*ex. reset css*/
+* {
+    padding: 0;
+    margin: 0;
+}
+/*cor e altura do header*/
+header {
+    height: 100px;
+    background-color: black;
+}
+/*chamando a classe pelo seletor (.)*/ 
+.logo{
+    height: 80px;
+}
+
+/*#id {} chamando o id pelo seletor #*/
+
+/*main div {} chamando todas as divs dentro do main*/ 
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(100, 138, 139);
+    padding-top:40px;
+    align-items: center;
+    gap: 20px;
+}
+
+
